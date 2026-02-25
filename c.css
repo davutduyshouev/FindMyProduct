@@ -3,26 +3,26 @@
     width:1150px;
     height:350px;
     position: absolute;
-    top: 210px;
+    top: 600px;
 }
 #tit{
     width:350px;
     height:150px;
     position: absolute;
-    top: 20px;
-    font-size: 120px;
+    top: 10px;
+    font-size: 60px;
     text-align: center;
     font-family: cursive, sans-serif;
     font-weight: 750;
-    left:200px;
+    left:20px;
 }
 #ser{
     border: 2px solid black;
     width: 1000px;
-    height: 70px;
-    border-radius: 25%;
+    height: 60px;
+    border-radius: 50px;
     position: absolute;
-    top: 70px;
+    top: 130px;
     left: 82px;
 
 }
@@ -32,4 +32,28 @@
     font-size: 90px;
     left: 250px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#reg{
+    border: 2px solid black;
+    width: 350px;
+    height:70px;
+    position: absolute;
+    top: 2005px;
+    left: 800px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(red, rgb(140, 24, 140));
+}
+body{
+    background-color: white;
+
+}
+#lock{
+    border: 2px solid black;
+    width: 1440px;
+    height: 240px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
