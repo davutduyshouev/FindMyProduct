@@ -1,7 +1,35 @@
-.search{
+#search{
     border: 2px solid black;
-    width: 400px;
+    width:1150px;
+    height:350px;
+    position: absolute;
+    top: 210px;
+}
+#tit{
+    width:350px;
     height:150px;
-    border-radius: 15%;
-    
+    position: absolute;
+    top: 20px;
+    font-size: 120px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-weight: 750;
+    left:200px;
+}
+#ser{
+    border: 2px solid black;
+    width: 1000px;
+    height: 70px;
+    border-radius: 25%;
+    position: absolute;
+    top: 70px;
+    left: 82px;
+
+}
+#text1{
+    position: absolute;
+    top: 175px;
+    font-size: 90px;
+    left: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
