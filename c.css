@@ -1,35 +1,1123 @@
 #search{
-    border: 2px solid black;
-    width:1150px;
+
+    width:1634px;
     height:350px;
     position: absolute;
-    top: 210px;
+    top: 153px;
+    left: 0px;
+    background-image: linear-gradient(#f59e0b, #f97316, #f43f5e);
 }
 #tit{
     width:350px;
     height:150px;
     position: absolute;
-    top: 20px;
-    font-size: 120px;
+    top: 10px;
+    font-size: 60px;
     text-align: center;
     font-family: cursive, sans-serif;
     font-weight: 750;
-    left:200px;
+    left:20px;
 }
 #ser{
     border: 2px solid black;
-    width: 1000px;
-    height: 70px;
-    border-radius: 25%;
+    width: 700px;
+    height: 60px;
+    border-radius: 50px;
     position: absolute;
-    top: 70px;
-    left: 82px;
+    top: 30px;
+    left: 510px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 #text1{
     position: absolute;
-    top: 175px;
-    font-size: 90px;
-    left: 250px;
+    top: 55px;
+    font-size: 80px;
+    text-align: center;
+    left: 190px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text2{
+    position: absolute;
+    color: white;
+    top: 170px;
+    font-size: 35px;
+    text-align: center;
+    left: 470px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text3{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 245px;
+    font-size: 20px;
+    text-align: center;
+    left: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff7772;
+}
+#text4{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 245px;
+    font-size: 20px;
+    text-align: center;
+    left: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff7772;
+}
+#text5{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 245px;
+    font-size: 20px;
+    text-align: center;
+    left: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff7772;
+}
+#reg{
+    border: 2px solid black;
+    width: 310px;
+    height:70px;
+    position: absolute;
+    top: 30px;
+    left: 1290px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: white;
+
+}
+#lock{
+    border: 2px solid black;
+    width: 1630px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#allproducts{
+    color: white;
+    background-color: #1b1566;
+    border: 2px solid rgb(0, 0, 0);
+    width: 190px;          /* increased width */
+    height: 50px;          /* increased height */
+    font-size: 30px;       /* corrected and increased font size */
+    border-radius: 60px;   /* larger rounded edges */
+    position: absolute;
+    top: 20px;
+    left: -70px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;     /* centers text vertically */
+}
+
+#Bakery{
+    color: rgb(55, 65, 81);
+    background-color: rgb(226, 232, 240);
+    border: 2px solid black;
+    width: 190px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    transition: background-color 0.4s ease;
+}
+
+#Crafts{
+    color: rgb(55, 65, 81);
+    background-color: rgb(226, 232, 240);
+    border: 2px solid black;
+    width: 190px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 370px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    transition: background-color 0.4s ease;
+}
+
+#Fashion{
+    color: rgb(55, 65, 81);
+    background-color: rgb(226, 232, 240);
+    border: 2px solid black;
+    width: 190px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 580px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    transition: background-color 0.4s ease;
+}
+
+#s{
+    color: rgb(55, 65, 81);
+    background-color: rgb(226, 232, 240);
+    border: 2px solid black;
+    width: 260px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    transition: background-color 0.4s ease;
+}
+
+#medicine{
+    color: rgb(55, 65, 81);
+    background-color: rgb(226, 232, 240);
+    border: 2px solid black;
+    width: 190px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 1080px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    transition: background-color 0.4s ease;
+}
+#icon{
+    width: 700px;
+    height: 65px;
+    font-size: 20px;
+    position: absolute;
+    top: 540px;
+    left: 150px;
+    
+
+}
+
+#pr1{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 730px;
+    left: 10px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#button1{
+    background-color: black;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10%;
+    
+
+}
+#lc1{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name1{
+
+    width: 290px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost1{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop1{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+}
+#rating1{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image1{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock1{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr1:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#test1{
+    border: 2px solid black;
+    position: absolute;
+    top: 2000px;
+}
+#pr2{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 730px;
+    left: 560px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc2{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name2{
+
+    width: 290px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost2{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop2{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+}
+#rating2{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image2{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock2{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr2:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr3{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 730px;
+    left: 1100px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc3{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name3{
+
+    width: 390px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost3{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop3{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+}
+#rating3{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image3{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock3{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr3:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr4{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 1230px;
+    left: 10px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc4{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name4{
+
+    width: 290px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost4{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop4{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+
+}
+#rating4{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image4{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock4{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr4:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr5{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 1230px;
+    left: 560px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc5{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name5{
+
+    width: 380px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost5{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop5{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+
+}
+#rating5{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#stock5{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#image5{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#pr5:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr6{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 1230px;
+    left: 1100px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc6{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name6{
+
+    width: 380px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost6{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop6{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+
+}
+#rating6{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#stock6{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#image6{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#pr6:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr7{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 1730px;
+    left: 10px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc7{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name7{
+
+    width: 290px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost7{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop7{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+
+}
+#rating7{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image7{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock7{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr7:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr8{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 1730px;
+    left: 560px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc8{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name8{
+
+    width: 290px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost8{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop8{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+
+}
+#rating8{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image8{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock8{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr8:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#pr9{
+    background-color: #eceacc;
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 1730px;
+    left: 1100px;
+    border-radius: 10%;
+    transition: 0.5s;
+
+}
+#lc9{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    border-radius: 0px 0px 50px 50px;
+}
+#name9{
+
+    width: 290px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+#cost9{
+    width: 290px;
+    height: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+
+}
+#shop9{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+
+}
+#rating9{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+
+}
+#image9{
+    font-size: 120px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#stock9{
+
+    width: 390px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+
+}
+#pr9:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #72ca60;
+}
+#Bakery:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #83a6bd;
+}
+#Crafts:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #83a6bd;
+}
+#Fashion:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #83a6bd;
+}
+#s:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #83a6bd;
+}
+#medicine:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: #83a6bd;
+}
+#lower{
+    border:2px solid black;
+    width: 1600px;
+    height: 500px;
+    position: absolute;
+    top: 2300px;
+    left:0px;
+    background-color: #08062e;
+}
+#tit2{
+    color: white;
+    width:350px;
+    height:150px;
+    position: absolute;
+    top: 10px;
+    font-size: 60px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-weight: 750;
+    left:20px;
+}
+#desc{
+    color: white;
+    width:450px;
+    height:150px;
+    position: absolute;
+    top: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-weight: 750;
+    left:10px;
+}
+#contact{
+
+    color: white;
+    width:450px;
+    height:250px;
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-weight: 750;
+    left:600px;
+}
+#tit3{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    font-size: 30px;
+
+}
+#phone{
+    position:absolute;
+    top:60px;
+    left: 80px;
+    
+}
+#gm{
+    position:absolute;
+    top:100px;
+    left: 80px;
+    
+}
+#whats{
+    position:absolute;
+    top:140px;
+    left: 80px;
+    
 }
